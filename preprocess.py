@@ -18,6 +18,5 @@ def prepare_data(text) :
     tokens = tokenizer.tokenize(text)
     stemmed_tokens = [stemmer.stem(token) for token in tokens]
     stemmed_text = ' '.join(stemmed_tokens)
-    print(stemmed_text)
     vectorized_text = cvectorizer.transform([text])
     return vectorized_text
