@@ -1,5 +1,7 @@
+nltk==3.8.1
+numpy==1.24.2
+pandas==1.5.3
+Requests==2.31.0
+scikit_learn==1.2.2
 streamlit==1.20.0
-matplotlib
-numpy
-sklearn
-scikit-learn
+streamlit_lottie==0.0.5
