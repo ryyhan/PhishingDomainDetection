@@ -5,3 +5,4 @@ Requests
 scikit_learn
 streamlit
 streamlit_lottie
+typing-extensions
